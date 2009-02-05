@@ -1,0 +1,33 @@
+h3. What?
+
+Plugin to add jQuery UI to "Frog CMS":http://www.madebyfrog.com/ admin interface. By using this plugin instead of manually including jQuery UI developers can be sure libraries do not get accidentally included several times. Also there is no need to instruct users to manually edit Frog CMS layout files.
+
+
+h3. Install 
+
+Copy plugin files to _frog/plugins/jquery_ui_/_ folder.
+
+<pre>
+cd frog/plugins/
+git clone git://github.com/tuupola/frog_jquery_ui.git jquery_ui_
+</pre>
+
+or
+
+<pre>
+cd frog/plugins/
+wget http://www.appelsiini.net/download/frog_jquery_ui.tar.gz
+tar -xzvf frog_jquery_ui.tar.gz
+</pre>
+
+Go to admin and enable jQuery UI plugin.
+
+h3. Usage
+
+<pre>
+jQuery(function($) {
+    $("#draggable").draggable({
+        revert: true
+    });
+});
+</pre>
