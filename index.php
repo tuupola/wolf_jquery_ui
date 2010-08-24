@@ -1,7 +1,7 @@
 <?php
 
 /*
- * jQuery - Add jQuery to Frog CMS admin interface.
+ * jQuery - Add jQuery to Wolf CMS admin interface.
  *
  * Copyright (c) 2008-2009 Mika Tuupola
  *
@@ -17,9 +17,9 @@ Plugin::setInfos(array(
     'id'          => 'jquery_ui',
     'title'       => 'jQuery UI', 
     'description' => 'Add jQuery UI to admin interface.', 
-    'version'     => '1.7.0',
+    'version'     => '1.8.4',
     'license'     => 'MIT',
-    'require_frog_version' => '0.9.3',
     'update_url'  => 'http://www.appelsiini.net/download/frog-plugins.xml',
-    'website'     => 'http://www.appelsiini.net/'
+    'website'     => 'http://www.appelsiini.net/',
+    'require_frog_version' => '0.6.0'
 ));
